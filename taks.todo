@@ -1,0 +1,6 @@
+Setting up mongoose and connecting to mongodb:
+    ✔ install mongoose @done(21-02-20 14:46)
+    ✔ update the server file to import the module @started(21-02-20 14:48) @done(21-02-20 17:21) @lasted(2h33m32s)
+    ✔ configure it so it will use the ES6 promises @started(21-02-20 14:48) @done(21-02-20 17:21) @lasted(2h33m32s)
+    ✔ use it to handle the connection the mongodb database for the project @started(21-02-20 14:48) @done(21-02-20 17:21) @lasted(2h33m32s)
+    

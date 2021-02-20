@@ -1,12 +1,13 @@
-// With the Express app configured to accept HTTP requests, we can go ahead
-// and use it to implement a server that can listen for incoming requests.
+const mongoose = require("mongoose");
 
-import config from "../config/config";
-import app from "./express";
-
-app.listen(config.port, (err) => {
-  if (err) {
-    console.log(err);
-  }
-  console.info("Server started on port %s.", config.port);
-});
+mongoose.connect(
+  "mongodb+srv://username:Password123@cluster0.yavfl.mongodb.net/mernDB?retryWrites=true&w=majority",
+  { useNewUrlParser: true,
+    useCreateIndex: true,
+    useUnifiedTopology: true }
+);
+const db = mongoose.connection;
+db.on('error',console.error.bind(console,'connection error:'));
+db.once('open',function(){
+  console.log("mongodb works")
+})
