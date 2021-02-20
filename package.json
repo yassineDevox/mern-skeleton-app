@@ -19,7 +19,7 @@
     "@material-ui/icons": "^4.11.2",
     "body-parser": "^1.19.0",
     "compression": "^1.7.4",
-    "cookieparser": "^0.1.0",
+    "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "express-jwt": "^6.0.0",
@@ -34,5 +34,8 @@
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-stripe-elements": "^6.1.2"
+  },
+  "scripts": {
+    "dev": "nodemon"
   }
 }
