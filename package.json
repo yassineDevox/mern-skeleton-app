@@ -1,0 +1,38 @@
+{
+  "name": "mern-skeleton",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.12.17",
+    "@babel/preset-env": "^7.12.17",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "file-loader": "^6.2.0",
+    "webpack": "^5.23.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-node-externals": "^2.5.2"
+  },
+  "dependencies": {
+    "@hot-loader/react-dom": "^17.0.1",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cookieparser": "^0.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "formidable": "^1.2.2",
+    "helmet": "^4.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.11.17",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-hot-loader": "^4.13.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-stripe-elements": "^6.1.2"
+  }
+}
